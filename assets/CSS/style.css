@@ -1,0 +1,1052 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* ======================================================================== */
+/* NAVBAR*/
+/* ======================================================================== */
+.head {
+  display: flex;
+  align-items: center;
+
+  height: 63px;
+  background: rgba(255, 0, 0);
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  margin-left: 10px;
+}
+
+.logo__anchor {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo {
+  height: 2.3rem;
+  padding: 10px 00px 10px 10px;
+}
+
+.navbar a {
+  display: block;
+  padding: 20px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  background: #3f3f3f;
+}
+
+.title {
+  margin-bottom: 40px;
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+/* ======================================================================== */
+/* HOME*/
+/* ======================================================================== */
+.slider-frame {
+  /* width: 1280px; */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.slider-frame ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 400%;
+
+  animation: slide 32s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider-frame img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+
+  100% {
+    margin-left: -300%;
+  }
+
+  105% {
+    margin-left: -400%;
+  }
+
+  125% {
+    margin-left: -400%;
+  }
+}
+
+/***********texto carrousel***********/
+.contenedor_carrousel>ul>li {
+  height: 100vh;
+}
+
+/*se intenta arreglar el pedazo extra que hay debajo del carrousel*/
+
+.contenedor_carrousel {
+  position: flex;
+  display: inline-block;
+  text-align: center;
+}
+
+.texto_encima_carrousel {
+  position: fixed;
+  top: 63px;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 100%;
+  padding-top: 38vh;
+  text-align: center;
+
+  background-color: #ff3300ad;
+}
+
+.titulo_home {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 72px;
+  color: #ffcd00;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 1);
+  letter-spacing: 0.05em;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.subtitulo_home {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 52px;
+  color: #ffcd00;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+  letter-spacing: 0.05em;
+
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: space-around;
+  padding: 20px 60px 0px 60px;
+
+}
+
+/* ======================================================================== */
+/* ORIGEN*/
+/* ======================================================================== */
+.row {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.card {
+  /*float: left;*/
+  max-width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+  flex-basis: 33.333%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.card>img {
+  margin-bottom: .75rem;
+  width: 100%;
+}
+
+.Background {
+  background-color: #d8a239;
+}
+
+.XtraBold {
+  color: #fff;
+  font-size: 5rem;
+  line-height: 1.3;
+}
+
+.scrollcards {
+  height: max-content;
+  white-space: nowrap;
+  height: 100vh !important;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  background: transparent;
+}
+
+div.scrollcards .card {
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  height: auto;
+  width: 30%;
+  top: 0;
+  vertical-align: top;
+  padding: 10% 2%;
+  font-weight: 400;
+}
+
+.fullImg {
+  display: inline-block;
+  padding: 0;
+  text-decoration: none;
+  height: 100vh;
+  margin: 0 0 0 -10rem;
+}
+
+.card-img-top {
+  height: 100%;
+}
+
+.txtnegro {
+  color: #000;
+  width: 100%;
+  white-space: initial;
+}
+
+.txtnegro p {
+  line-height: 1;
+  width: 100%;
+  font-size: 18px;
+  color: #000;
+  padding: 2rem 0
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***********texto explicativo***********/
+.hider {
+  position: fixed;
+  top: 70px;
+  right: 60px;
+  z-index: 9998;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+.hide {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 12px;
+  line-height: 10px;
+  color: #000;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+/* ======================================================================== */
+/* CERVEZAS*/
+/* ======================================================================== */
+
+.fondo_cervezas {
+  background-image: url("/assets/brahma/bg-MediaAlbum.a7a454e4.jpg");
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+#CERVEZAS {
+  margin: 0;
+  padding: 10% 10% 10% 10%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #ffcd00;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+#MARCA {
+  margin: 0;
+  padding: 10% 10% 10% 10%;
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffcd00;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .5);
+}
+
+.cervezas {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  min-height: 600px;
+
+  margin: 0;
+  padding: 0;
+}
+
+/****Se muestran las cervezas (se puede mejorar con JS)****/
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: baseline;
+  flex-direction: row;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50%;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+/****Se adapta el tamaño de las imagenes para que queden iguales****/
+.tamaño {
+  padding: 50px 50px 20px 50px;
+}
+
+#chopp,
+#lager {
+  height: 12rem;
+}
+
+#malzbier {
+  height: 12rem;
+  width: 5.5rem;
+}
+
+#lager {
+  width: 8rem;
+}
+
+/* *************ANIMACIONES****************** */
+/* H1 CERVEZAS */
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+
+  40% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* HOVERS */
+/****Titulo de cerveza****/
+#CERVEZAS {
+  text-decoration: inherit;
+}
+
+#CERVEZAS:hover {
+  text-shadow: 3px 4px 7px rgba(39, 39, 37, 0.883);
+  transition-duration: 1s;
+}
+
+/****Cervezas****/
+.img_cerveza {
+  transition-duration: 0.5s;
+}
+
+.img_cerveza:hover {
+  -webkit-filter: drop-shadow(0px .5rem 2rem rgba(0, 0, 0, .75)) drop-shadow(3px 4px 7px rgba(39, 39, 37, 0.5));
+  filter: drop-shadow(0px .5rem 2rem rgba(0, 0, 0, .75)) drop-shadow(3px 4px 7px rgba(39, 39, 37, 0.5));
+
+  transform: scale(1.1);
+  transition-timing-function: ease-in-out;
+
+}
+
+/* ********************** */
+
+.div-imagen {
+  display: inline-block;
+  position: relative;
+}
+
+.div-imagen>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding: 10px;
+  margin: 0;
+}
+
+.desvanecer:hover {
+  opacity: 0.07;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  -ms-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+/* ======================================================================== */
+/* CADA CERVEZA */
+/* ======================================================================== */
+
+.fondo_cerveza {
+  background-image: url("https://www.brahma.com.ar/static/media/bg-meetUs.d857943d.jpg");
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.informacion {
+  padding-top: 11%;
+  padding-bottom: 8%;
+}
+
+#NOMBRE_CERVEZA {
+  margin: 0;
+  padding: 0 10% 4% 17%;
+
+  text-align: start;
+  letter-spacing: 0.05em;
+
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #ffae00;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.767);
+}
+
+.dos_partes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#img_chopp {
+  width: 9rem;
+  height: min-content;
+}
+
+#img_lagger {
+  width: 15%;
+  height: min-content;
+}
+
+#img_malzbier {
+  width: 11%;
+  height: 21rem;
+}
+
+#info {
+  width: 25%;
+  height: min-content;
+  
+  /* font-family: 'Montserrat', sans-serif; */
+  font-style: italic;
+  font-size: 1.5rem;
+  color: #dfdede;
+  text-shadow: 0 4px 4px rgba(163, 121, 66, 0.966);
+  font-family: 'Instrument Sans', sans-serif;
+}
+
+#img_chopp,
+#img_lagger,
+#img_malzbier,
+#info {
+  margin-right: 5rem;
+  margin-left: 5rem;
+}
+
+
+
+/* ======================================================================== */
+  /* SORTEOS*/
+  /* ======================================================================== */
+
+
+  .txt-titulo1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #f0171b;
+    padding-top: 30px;
+    }
+    
+  .txt-titulo2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #2c270f;
+    }
+  
+  .bg_sorteos {
+    background-color: #e9282b21;
+  }
+  
+  .txt_foot {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align:center;
+    color: #001b1b;
+  }
+  
+  .bg_nav {
+    background-image: url("/assets/eventos/sorteos.jpg");
+    padding: 10px;
+    height: 20vh;
+    bottom: 20vh;
+    }
+  .t_sorteos {
+    margin-left: 20px;
+    font-weight: 700px;
+    font-size: 25px;
+    line-height: 150px;
+    text-transform: uppercase;
+    color: #fbff05;
+    padding-top: 20px;
+    height: 20vh;
+    }
+  
+    .btn-f {
+      padding-top: 30px;
+    }
+  
+    .btn-form {
+      background: #fbff01;
+      color: #ff0000 !important;
+      font-weight: bold;
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .btn-form:hover { 
+      border: none;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      background: #fbff0194;
+      color: #ff0000 !important;
+      font-weight:800;
+    
+    }
+  
+    .evento_bg {
+      box-sizing: border-box;
+      padding: 15px;
+      border: 1px solid rgb(243, 170, 170);
+  
+    }
+    
+  
+    .evento_img {
+      width: 50%;
+      float: left;
+      padding: 15px;
+    }
+    
+    .evento_descripcion {
+      box-sizing: border-box;
+      width: 50%;
+      float: left;
+      padding: 15px;
+    }
+
+/* ======================================================================== */
+/* NOTICIAS*/
+/* ======================================================================== */
+.Noticion {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin-top: 63px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.Noticion ul {
+  display: flex;
+  margin-top: 63px;
+  flex-wrap: wrap;
+  background-color: #d8a239;
+  padding: 0;
+  width: 100%;
+  height: 594px;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.Noticion li {
+  background-color: #777;
+  width: 200px;
+  padding: 20px 10px 10px 10px;
+  list-style: none;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 5px;
+}
+
+.Noticion a {color: #fff;}
+
+/* ======================================================================== */
+/* CONTACTO*/
+/* ======================================================================== */
+.contenedor_2partes,
+.parte1_imagen_contacto,
+.parte2 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: start;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.parte2 {
+  margin: 0 3% 0 0;
+  height: 100vh;
+}
+
+.titulo-parte2 {
+  margin-bottom: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 4rem;
+  text-transform: none;
+
+  /* background-size: cover;
+  margin: 0;
+  padding: 0;
+  font-family: 'Varela Round', sans-serif; */
+
+  text-align: start;
+  margin-top: 0;
+  color: #FEC526;
+  margin-left: -4%;
+  margin-top: 15%;
+}
+
+
+/**** lado izquierdo (imagen) ****/
+.parte1_imagen_contacto {
+  background-image: url(/assets/contacto_brahma/zyro-image.png);
+  width: 50%;
+  height: 100vh;
+  object-fit: cover;
+
+  opacity: 1;
+  visibility: inherit;
+  transform-origin: 50% 50%;
+  transform: translate(0px, 0px);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/**** lado derecho (formulario) ****/
+
+.texto-form {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formulario {
+  width: 500px;
+  max-width: 100%;
+  margin: 0;
+  margin-top: 0px;
+  padding: 0 0 0 13%;
+  position: relative;
+
+  text-transform: uppercase;
+}
+
+.formulario_input,
+.formulario_label,
+.formulario_submit {
+  display: block;
+  width: 100%;
+  font-size: 0.85rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.formulario_input {
+  width: 95%;
+  padding: 12px 0 0 2px;
+  background: transparent;
+  border: 1px solid rgb(0, 0, 0, 1);
+  margin-bottom: 20px;
+}
+
+.formulario_label {
+  padding-left: 5px;
+  position: absolute;
+  margin-top: -40px;
+  z-index: -20;
+  color: rgb(0, 0, 0, 0.7);
+  text-align: start;
+}
+
+.formulario_submit {
+  width: 60%;
+  background: rgb(0, 0, 0, 1);
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+
+  color: #fec526;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-style: normal;
+}
+
+/**** ANIMACION (clic en formulario) ****/
+.formulario_input:focus {
+  outline: 1px solid rgb(0, 0, 0, 1);
+}
+
+.formulario_input:focus+.formulario_label {
+  margin-top: -50px;
+  transform: scale(80%);
+
+  -webkit-transform-origin-x: 0;
+  transform-origin: left;
+}
+
+.formulario_label {
+  transition: all 0.3s;
+}
+
+.fijar {
+  margin-top: -50px;
+  font-size: 0.85rem;
+}
+
+/* ******FIN ANIMACION****** */
+
+
+/* ======================================================================== */
+/* FOOTER*/
+/* ======================================================================== */
+footer {
+  background-color: red;
+  line-height: 2;
+
+  height: 5rem;
+  width: 100%;
+
+  margin: 0;
+  z-index: 9999;
+  margin-bottom: 0;
+}
+
+.ft-social {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__logo {
+  height: 3rem;
+  padding: 10px 00px 10px 10px;
+}
+
+.iconFooter {
+  height: 1.5rem;
+  padding: 0.7em;
+}
+
+.ft-social-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.2rem;
+}
+
+.legal {
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1;
+  padding: 10px 00px 10px 10px;
+}
+
+
+/*
+*
+*
+Responsive a continuación*
+*
+*
+*/
+
+/* ======================================================================== */
+/* RESPONSIVE PÁGINA CONTACTO*/
+/* ======================================================================== */
+@media screen and (max-width: 540px) {
+  .formulario {
+    width: 300px;
+  }
+
+  .parte1_imagen_contacto {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .contenedor_2partes {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .parte1_imagen_contacto {
+    width: 100%;
+    height: 50vh;
+  }
+
+  .parte2 {
+    width: 500px;
+  }
+
+  .formulario {
+    margin-top: 70px;
+    max-width: 800px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contenedor_2partes {
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .formulario {
+    margin-top: 70px;
+    max-width: 350px;
+  }
+}
+
+/*======================================================================== */
+/* RESPONSIVE HEADER EN PAGINA CONTACTO*/
+/* ======================================================================== */
+@media screen and (max-width: 540px) {
+
+  header,
+  .head {
+    width: 100%;
+  }
+
+  .logo__anchor {
+    width: 20px;
+    margin-right: 10px;
+  }
+
+  .navbar {
+    margin-left: 50px;
+  }
+
+  .navbar>a {
+    width: 15px;
+    margin-left: 10px;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+
+  header,
+  .head {
+    width: 100%;
+  }
+
+  .navbar {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .navbar>a {
+    width: 20px;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {}
+
+/* ======================================================================== */
+/* RESPONSIVE FOOTER EN PAGINA CONTACTO*/
+/* ======================================================================== */
+
+@media screen and (max-width: 540px) {
+  footer {
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+  footer,
+  .ft-social {
+    max-width: 540px;
+    font-size: 0.3rem;
+  }
+
+  .footer__logo {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  footer {
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+  footer,
+  .ft-social {
+    max-width: 540px;
+    font-size: 0.3rem;
+  }
+
+  .footer__logo {
+    width: 50px;
+    margin-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 1200px) {
+  footer {
+    display: inline-block;
+    justify-content: space-around;
+  }
+
+  footer,
+  .ft-social {
+    max-width: 1200px;
+    font-size: 2rem;
+  }
+
+  .footer__logo {
+    max-width: 100px;
+  }
+
+  footer>img {
+    max-width: 20px;
+  }
+}
+
+/* ======================================================================== */
+/* THE END*/
+/* ======================================================================== */
