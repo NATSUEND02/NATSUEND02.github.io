@@ -1,6 +1,6 @@
 # ProyectoFinal-CodoACodo
 
-This project was developed by the students Ana Kuenneth, Hector Tula and Ignacio Mola Olivera to fulfill the tasks described in the "TPO Desarrollo Web HTML, CSS y Javascript" for the course "Codo a Codo - 23030 - Python FullStack" Imparted by Engineer Anderson Ocana.
+This project was developed by the students Ana Rosa Soria Kuenneth, Hector Tula and Ignacio Mola Olivera to fulfill the tasks described in the "TPO Desarrollo Web HTML, CSS y Javascript" for the course "Codo a Codo - 23030 - Python FullStack" Imparted by Engineer Anderson Ocana.
 
 You may see the website in action here: https://natsuend02.github.io/
 
@@ -14,7 +14,7 @@ It contains a home page, a brief recap of the brand's history, showcases of the 
 
 ### Contributions
 
-[Ana Kuenneth](https://github.com/Ana-Kuenneth): Header, Home/index, Cervezas and Cervezas's subpages
+[Ana Rosa Soria Kuenneth](https://github.com/Ana-Kuenneth): Header, Home/index, Cervezas and Cervezas's subpages
 
 [Ignacio Benjamin Mola Olivera](https://github.com/NATSUEND02): Header, Footer, Origen and Noticias
 
@@ -24,7 +24,7 @@ It contains a home page, a brief recap of the brand's history, showcases of the 
 ### Issues
 
 - The home page's style and functionability is affected by the Bootstrap used for the carrousel
-- The Noticias page's API consumption is bound to HTTP format due to https://mediastack.com/product free subscription plan limitations, allow insecure content in your browser's settings to allow the API to be consumed. (May block insecure content immediately after refreshing the page once)
+- The Noticias page's API consumption is bound to HTTP format due to https://mediastack.com/product free subscription plan limitations, allow insecure content in your browser's settings to allow the API to be consumed. (May block insecure content after refreshing the page once)
 
 
 # Cheers 🍻
