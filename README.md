@@ -15,7 +15,9 @@ It contains a home page, a brief recap of the brand's history, showcases of the 
 ### Contributions
 
 Ana Kuenneth: Header, Home/index, Cervezas and Cervezas's subpages
+
 Ignacio Mola Olivera: Header, Footer, Origen and Noticias
+
 Hector Tula: Eventos and Contacto
 
 
