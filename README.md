@@ -1,6 +1,6 @@
 # ProyectoFinal-CodoACodo
 
-This project was developed by the students Ana Kuenneth, Hector Tula and Ignacio Mola Olivera to fulfill the tasks described in the "TPO Desarrollo Web HTML, CSS y Javascript" for the course "Codo a Codo - 23030 - Pyhton FullStack" Imparted by Engineer Anderson Ocana.
+This project was developed by the students Ana Kuenneth, Hector Tula and Ignacio Mola Olivera to fulfill the tasks described in the "TPO Desarrollo Web HTML, CSS y Javascript" for the course "Codo a Codo - 23030 - Python FullStack" Imparted by Engineer Anderson Ocana.
 
 You may see the website in action here: https://natsuend02.github.io/
 
