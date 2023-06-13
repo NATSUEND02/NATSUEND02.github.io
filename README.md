@@ -14,11 +14,11 @@ It contains a home page, a brief recap of the brand's history, showcases of the 
 
 ### Contributions
 
-Ana Kuenneth: Header, Home/index, Cervezas and Cervezas's subpages
+[Ana Kuenneth](https://github.com/Ana-Kuenneth): Header, Home/index, Cervezas and Cervezas's subpages
 
-Ignacio Mola Olivera: Header, Footer, Origen and Noticias
+[Ignacio Benjamin Mola Olivera](https://github.com/NATSUEND02): Header, Footer, Origen and Noticias
 
-Hector Tula: Eventos and Contacto
+[Hector Tula](https://github.com/hectula): Eventos and Contacto
 
 
 ### Issues
