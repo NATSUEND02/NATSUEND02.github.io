@@ -5,3 +5,9 @@ for(var i=0; i<inputs.length; i++){
         else{ this.nextElementSibling.classList.remove('fijar');}
     });
 }
+document.getElementById("botonSorteo").addEventListener("click", function() {
+    document.getElementById("modalSorteo").style.display = "block";
+  });
+document.getElementsByClassName("close")[0].addEventListener("click", function() {
+  document.getElementById("modalSorteo").style.display = "none";
+});

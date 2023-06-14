@@ -32,45 +32,64 @@
         </div>
     </header>
     <main>
-    <div class="row bg_nav"><span class="t_sorteos">Eventos - Sorteos</span></div>
-    <div class="container bg_sorteos">
-    <hr>       
-        <section class="row" id="sorteo_1">
-                <div class="evento_img">
-                    <img src="/assets/eventos/lamagica1.jpg" alt="lamagica" class="img-fluid">
-                </div>
-
-                <div class="evento_descripcion">
-                    <h1 class="txt-titulo1">La M&aacute;gica</h1>
-                    <h4>Una fiesta de cumbia</h4>
-                    <h2 class="txt-titulo2">2 de Junio</h2>
-                    <p>JAMBAO - HERNAN Y LA CAMPIONS LIGA - MARIO LUIS - KARICIA - ZURITA - DIYANEIRO - KUN - GUARACHIS</p>
-                    <div class="btn-f">
-                        <button type="submit" class="btn-form">PARTICIP&Aacute; POR UN PAR DE ENTRADAS!</button>
-                    </div>
-                </div>
-        </section>
+        <div class="row bg_nav"><span class="t_sorteos">Eventos - Sorteos</span></div>
+        <div class="container bg_sorteos">
         <hr>       
-        <section class="row evento_bg" id="sorteo_2">
-                <div class="evento_img">
-                    <img src="/assets/eventos/cfino1.jpg" alt="callejerofino" class="img-fluid">
-                </div>
-                <div class="evento_descripcion">
-                    <h1 class="txt-titulo1">Callejero Fino</h1>
-                    <h2 class="txt-titulo2">2 de Junio</h2>
-                    <p>MOVISTAR ARENA</p>
-                    <div class="btn-f">
-                        <button type="submit" class="btn-form">PARTICIP&Aacute; POR UN PAR DE ENTRADAS!</button>
+            <section class="row" id="sorteo_1">
+                    <div class="evento_img">
+                        <img src="/assets/eventos/lamagica1.jpg" alt="lamagica" class="img-fluid">
                     </div>
+    
+                    <div class="evento_descripcion">
+                        <h1 class="txt-titulo1">La M&aacute;gica</h1>
+                        <h4>Una fiesta de cumbia</h4>
+                        <h2 class="txt-titulo2">2 de Junio</h2>
+                        <p>JAMBAO - HERNAN Y LA CAMPIONS LIGA - MARIO LUIS - KARICIA - ZURITA - DIYANEIRO - KUN - GUARACHIS</p>
+                        <div class="btn-f">
+                            <button id="botonSorteo" type="submit" class="btn-form">PARTICIP&Aacute; POR UN PAR DE ENTRADAS!</button>
+                        </div>
+                    </div>
+            </section>
+            <hr>       
+            <section class="row evento_bg" id="sorteo_2">
+                    <div class="evento_img">
+                        <img src="/assets/eventos/cfino1.jpg" alt="callejerofino" class="img-fluid">
+                    </div>
+                    
+                    <div class="evento_descripcion">
+                        <h1 class="txt-titulo1">Callejero Fino</h1>
+                        <h2 class="txt-titulo2">2 de Julio</h2>
+                        <p>MOVISTAR ARENA</p>
+                        <div class="btn-f">
+                            <button id="botonSorteo" type="submit" class="btn-form">PARTICIP&Aacute; POR UN PAR DE ENTRADAS!</button>
+                        </div>
+                    </div>
+            </section>
+            <div id="modalSorteo" class="modal">
+                <div class="modal-content">
+                  <div class="close">&times;</div>
+                  <form>
+                    <section class="titulo_sorteo">
+                      <h1 class="tracking-in-expand" id="titulo_sorteo">Ingresa tus datos<br>Ya estas participando</h1>
+                    </section>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre completo">
+                    <input type="email" id="email" name="email" placeholder="Ingrese su e-mail">
+                    <input type="text" id="telefono" name="telefono" placeholder="Telefono">
+                    <input type="text" id="ciudad" name="ciudad" placeholder="Ciudad">
+                    <input type="text" id="pais" name="pais" placeholder="Pais">
+                    <textarea id="mensaje" name="mensaje" placeholder="Deja tu mensaje"></textarea>
+                    <p class="texto-form" style="text-transform: none;">*Campos requeridos. Al enviar el formulario estás aceptando nuestro <strong>Aviso de Privacidad</strong></p>
+                    <input type="submit" value="Enviar">
+                  </form>
                 </div>
-        </section>
-        <hr>
-        <div class="bg_sorteos txt_foot">
-            <h5>😄 PARTICIPÁ POR PREMIOS FLAMA! 😎</h5>.
-            <strong class="txt_foot">🎵🎶 Se viene más música. Se vienen más juntadas 🍻🍻🍻</strong>
+              </div>
+            <hr>
+            <div class="bg_sorteos txt_foot">
+                <h5>😄 PARTICIPÁ POR PREMIOS FLAMA! 😎</h5>.
+                <strong class="txt_foot">🎵🎶 Se viene más música. Se vienen más juntadas 🍻🍻🍻</strong>
+            </div>
         </div>
-    </div>
-    </main>
+        </main>
      <footer>
         <section class="ft-social">
             <ul><img class="footer__logo" src="https://www.brahma.com.ar/static/media/Logo.b805cd1f.svg" alt=""></a></ul>
