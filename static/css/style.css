@@ -314,7 +314,7 @@ p{
 /* ======================================================================== */
 
 .fondo_cervezas {
-  background-image: url("/assets/brahma/bg-MediaAlbum.a7a454e4.jpg");
+  background-image: url("/static/img/brahma/bg-MediaAlbum.a7a454e4.jpg");
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -598,7 +598,7 @@ p{
   }
   
   .bg_nav {
-    background-image: url(/assets/eventos/sorteos.jpg);
+    background-image: url(/static/img/eventos/sorteos.jpg);
     padding: 10px;
     height: 20vh;
     bottom: 20vh;
@@ -869,7 +869,7 @@ p{
 
 /**** lado izquierdo (imagen) ****/
 .parte1_imagen_contacto {
-  background-image: url(/assets/contacto_brahma/zyro-image.png);
+  background-image: url(/static/img/contacto_brahma/zyro-image.png);
   width: 50%;
   height: 100vh;
   object-fit: cover;
