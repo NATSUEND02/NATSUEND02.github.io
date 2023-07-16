@@ -7,7 +7,7 @@ You may see the website in action here: https://natsuend02.github.io/
 ### Description
 
 The project aims to give more life to the https://brahma.com.ar/ website and make it userfriendly while also inviting the consumer to know more about the brand and beer itself.
-While maintaining certain aspects of the already existing website to not make it differ far too much.
+While maintaining certain aspects of the already existing website in order to not lose identity.
 
 It contains a home page, a brief recap of the brand's history, showcases of the different kind of beers, an event page where the user can find information of upcoming events or giveaways, a page with news related to beer for the website's country and a contact form for the user to talk directly to the brand.
 
